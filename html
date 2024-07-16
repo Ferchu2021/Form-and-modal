@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gout Gluten Free</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Menú lateral -->
+    <nav>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Concepto</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Productos</a>
+                <ul>
+                    <li><a href="#">Cakes</a></li>
+                    <li><a href="#">Mini cakes</a></li>
+                    <li><a href="#">Bakery</a></li>
+                    <li><a href="#">Panes y Mermeladas</a></li>
+                    <li><a href="#">Salado</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Prensa</a></li>
+            <li><a href="#">Franquicias</a></li>
+            <li><a href="#">Shop online</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenido principal -->
+    <main>
+
+        <!-- Encabezado -->
+        <header>
+            <h1>Gout Gluten Free</h1>
+        </header>
+
+        <!-- Contenido de la página de inicio -->
+        <section>
+            <h2>Bienvenidos a Gout Gluten Free</h2>
+            <p>Un lugar dedicado especialmente a la elaboración y venta de productos libres de gluten. Esperamos que el recorrido por nuestra página, sea un viaje a través del placer!</p>
+            <p>Serán bienvenidos sus comentarios y su interacción con nosotros.</p>
+            <p>TENÍA QUE LLEGAR UN LUGAR DONDE LO LIBRE DE GLUTEN</p>
+            <p>SEA RICO Y ATRACTIVO A LOS OJOS</p>
+        </section>
+
+        <!-- Formulario de contacto -->
+        <section>
+            <h2>Contacto</h2>
+            <form id="contact-form" action="#" method="post">
+                <div>
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2 id="modal-title"></h2>
+            <p id="modal-message"></p>
+            <pre id="modal-data"></pre>
+        </div>
+    </div>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>Derechos de autor &copy; 2024 Gout Gluten Free. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
